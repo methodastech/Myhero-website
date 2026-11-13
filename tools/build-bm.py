@@ -84,8 +84,8 @@ T = {
  'Thank you. Your invite is on its way when your turn comes.':'Terima kasih. Jemputan anda akan dihantar apabila tiba giliran anda.',
  'A personal health record for Malaysian patients and the people who care for them. Founded by Dr. Amira Abdullah, Kuala Lumpur.':'Rekod kesihatan peribadi untuk pesakit di Malaysia dan mereka yang menjaga mereka. Diasaskan oleh Dr. Amira Abdullah, Kuala Lumpur.',
  'Kuala Lumpur':'Kuala Lumpur','Company':'Syarikat','Early access':'Akses awal','Contact':'Hubungi','hello@myhero.my':'hello@myhero.my','Back to the top':'Kembali ke atas','Back to top':'Ke atas',
- '© 2026 MyHero. Prototype site, October 2026.':'© 2026 MyHero. Laman prototaip, Oktober 2026.','MyHero keeps and explains your record. It does not diagnose.':'MyHero menyimpan dan menerangkan rekod anda. Ia tidak mendiagnosis.',
- '&copy; 2026 MyHero. Prototype site, October 2026.':'&copy; 2026 MyHero. Laman prototaip, Oktober 2026.',
+ 'MyHero keeps and explains your record. It does not diagnose.':'MyHero menyimpan dan menerangkan rekod anda. Ia tidak mendiagnosis.',
+ 
  'MyHero':'MyHero','EN':'EN','BM':'BM','English':'English','Bahasa Malaysia':'Bahasa Malaysia',
  # 22 Oct 2026: the animated scenes, the numbers band, the clinic form and the form states
  '1 page':'1 halaman','12.9 g/dL':'12.9 g/dL','2.7 mmol/L':'2.7 mmol/L','20:00 · Metformin':'20:00 · Metformin','mmHg':'mmHg','DA':'DA','HbA1c':'HbA1c','LDL':'LDL',
