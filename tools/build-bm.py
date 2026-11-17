@@ -13,6 +13,7 @@ s = io.open(SRC, encoding='utf-8').read()
 # whole fragments first: the head, headings split by <em>, and the switch
 FRAG = [
  ('<html lang="en">', '<html lang="ms">'),
+ ('<link rel="canonical" href="https://myhero.care/">', '<link rel="canonical" href="https://myhero.care/bm">'),
  ('<title>MyHero · Never walk in unsure</title>', '<title>MyHero · Masuk dengan yakin</title>'),
  ('<meta name="description" content="MyHero keeps every report, reading, medicine and visit in one app, explains them in plain language, and turns them into one clear page for your doctor. Built with a doctor, for Malaysia.">',
   '<meta name="description" content="MyHero menyimpan setiap laporan, bacaan, ubat dan lawatan dalam satu aplikasi, menerangkannya dalam bahasa yang mudah, dan menjadikannya satu halaman yang jelas untuk doktor anda. Dibina bersama doktor, untuk Malaysia.">'),

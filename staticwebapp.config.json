@@ -1,6 +1,9 @@
 {
   "routes": [
-    { "route": "/tools/*", "statusCode": 404 }
+    { "route": "/tools/*", "statusCode": 404 },
+    { "route": "/index.html", "redirect": "/", "statusCode": 301 },
+    { "route": "/bm.html", "redirect": "/bm", "statusCode": 301 },
+    { "route": "/privacy.html", "redirect": "/privacy", "statusCode": 301 }
   ],
   "responseOverrides": {
     "404": { "rewrite": "/404.html" }
