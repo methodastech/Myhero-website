@@ -83,7 +83,7 @@ T = {
  'Email':'E-mel','you@email.com':'anda@emel.com','Request an invite':'Minta jemputan','One email about the invite. Nothing else.':'Satu e-mel tentang jemputan. Tiada yang lain.',
  'Thank you. Your invite is on its way when your turn comes.':'Terima kasih. Jemputan anda akan dihantar apabila tiba giliran anda.',
  'A personal health record for Malaysian patients and the people who care for them. Founded by Dr. Amira Abdullah, Kuala Lumpur.':'Rekod kesihatan peribadi untuk pesakit di Malaysia dan mereka yang menjaga mereka. Diasaskan oleh Dr. Amira Abdullah, Kuala Lumpur.',
- 'Kuala Lumpur':'Kuala Lumpur','Company':'Syarikat','Early access':'Akses awal','Contact':'Hubungi','hello@myhero.my':'hello@myhero.my','Back to the top':'Kembali ke atas','Back to top':'Ke atas',
+ 'Kuala Lumpur':'Kuala Lumpur','Company':'Syarikat','Privacy policy':'Dasar privasi','&copy; 2026 MyHero.':'&copy; 2026 MyHero.','Best Medic Services Sdn. Bhd. 202401034573 (1580420-U)':'Best Medic Services Sdn. Bhd. 202401034573 (1580420-U)','Early access':'Akses awal','Contact':'Hubungi','hello@myhero.my':'hello@myhero.my','Back to the top':'Kembali ke atas','Back to top':'Ke atas',
  'MyHero keeps and explains your record. It does not diagnose.':'MyHero menyimpan dan menerangkan rekod anda. Ia tidak mendiagnosis.',
  
  'MyHero':'MyHero','EN':'EN','BM':'BM','English':'English','Bahasa Malaysia':'Bahasa Malaysia',
