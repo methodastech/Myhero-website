@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Delete your account · MyHero</title>
+<meta name="description" content="How to delete your MyHero account and health data, in the app or by email, what is deleted and what is kept.">
+<link rel="icon" href="assets/logo/app-icon.png?v=w17" type="image/png">
+<link rel="apple-touch-icon" href="assets/logo/app-icon.png?v=w17">
+<meta name="theme-color" content="#00A3B8">
+<link rel="canonical" href="https://myhero.care/delete-account">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* The legal pages (privacy-policy, delete-account): one plain reading page in the site's own tokens (index.html :root), no script.
+   The policy text is supplied word for word for Google Play and the App Store; do not reword it. */
+:root{
+  --act:#00A3B8; --act-d:#008A9C; --deep:#08818C;
+  --mist:#E3F7FA; --wash:#F4FBFC;
+  --ink:#1B2430; --body:#4A5763; --muted:#6B7783; --line:#E7EDF0;
+  --g:24px;
+  --head:"Fredoka",system-ui,sans-serif; --text:"Nunito",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:24px;-webkit-text-size-adjust:100%}
+body{background:#fff;color:var(--body);font-family:var(--text);font-size:17px;line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:var(--deep);font-weight:700;text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;overflow-wrap:anywhere}
+a:hover{color:var(--act)}
+:focus-visible{outline:3px solid #17CBD9;outline-offset:4px;border-radius:8px}
+.wrap{max-width:calc(760px + var(--g)*2);margin:0 auto;padding:0 var(--g)}
+
+.hd{border-bottom:1px solid var(--line)}
+.hd .wrap{max-width:calc(1120px + var(--g)*2);height:80px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.hd .brand{display:flex;text-decoration:none}
+.hd .brand img{height:36px;width:auto}
+.back{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:12px;background:var(--mist);color:var(--ink);font:800 15px/1 var(--text);text-decoration:none;white-space:nowrap}
+.back:hover{background:#CDEFF4;color:var(--ink)}
+
+.top{padding:56px 0 8px}
+h1{font:600 clamp(34px,6vw,52px)/1.1 var(--head);color:var(--ink);letter-spacing:-.01em}
+.meta{margin-top:14px;font-size:15px;color:var(--muted)}
+.intro{margin-top:22px;font-size:19px}
+
+section{padding-top:40px}
+h2{font:600 clamp(24px,3vw,30px)/1.2 var(--head);color:var(--ink);margin-bottom:12px}
+p+p,p+ul,ul+p,p+ol,ol+p{margin-top:12px}
+ul,ol{padding-left:22px}
+li{margin:6px 0}
+li b,p b{color:var(--ink)}
+
+.ft{margin-top:72px;background:var(--wash);padding:32px 0;font-size:14.5px;color:var(--muted)}
+.ft .wrap{max-width:calc(1120px + var(--g)*2);display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 24px}
+.ft nav{display:flex;flex-wrap:wrap;gap:8px 20px}
+.ft a{font-weight:700;text-decoration:none;color:var(--deep)}
+
+@media(max-width:640px){
+  body{font-size:16.5px}
+  .hd .wrap{height:68px}
+  .hd .brand img{height:30px}
+  .top{padding-top:36px}
+}
+</style>
+</head>
+<body>
+
+<header class="hd">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="MyHero home"><img src="assets/logo/wordmark-red.svg?v=w17" alt="MyHero" width="97" height="32"></a>
+    <a class="back" href="/">Back to MyHero</a>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="top">
+    <h1>Deleting your MyHero account and data</h1>
+    <p class="intro">You can delete your MyHero account and your health data at any time. There are two ways.</p>
+  </div>
+
+  <section id="in-app">
+    <h2>1. In the app (fastest)</h2>
+    <ol>
+      <li>Open <b>MyHero</b> and sign in.</li>
+      <li>Go to <b>More → Settings</b>.</li>
+      <li>Scroll to <b>Danger zone</b> and tap <b>Delete my account</b>.</li>
+      <li>Type <b>DELETE</b> to confirm, then tap <b>Delete permanently</b>.</li>
+    </ol>
+    <p>Your account and the health records that belong to you are removed straight away, and you are signed out.</p>
+  </section>
+
+  <section id="email">
+    <h2>2. By email</h2>
+    <p>If you can't open the app, email <b><a href="mailto:support@myhero.care">support@myhero.care</a></b> from the address on your account and ask us to delete your account. We will verify it is you and delete it.</p>
+  </section>
+
+  <section id="deleted">
+    <h2>What gets deleted</h2>
+    <ul>
+      <li>Your account (name, email, IC/date of birth).</li>
+      <li>Your own health records: visits, medication, allergies, conditions, test and vital readings, vaccinations, documents you attached, and the notes from any visit recordings.</li>
+      <li>Any family profile that <b>only you</b> keep.</li>
+    </ul>
+  </section>
+
+  <section id="kept">
+    <h2>What is kept</h2>
+    <ul>
+      <li><b>Records you share with family members</b> are not deleted — deleting your account removes <em>your</em> access, but the relatives who co-own the record keep theirs.</li>
+      <li>Anonymous audit entries (who changed a shared record and when) may be kept without your name attached, to protect the other people who share that record.</li>
+    </ul>
+  </section>
+
+  <section id="time">
+    <h2>How long it takes</h2>
+    <p>Deletion from the app is immediate. Email requests are actioned within <b>7 days</b>.</p>
+    <p>Questions: <b><a href="mailto:support@myhero.care">support@myhero.care</a></b>.</p>
+  </section>
+</main>
+
+<footer class="ft">
+  <div class="wrap">
+    <span>&copy; 2026 MyHero. Best Medic Services Sdn. Bhd. 202401034573 (1580420-U)</span>
+    <nav aria-label="Legal"><a href="/privacy-policy">Privacy policy</a><a href="/delete-account">Delete your account</a><a href="/">Back to MyHero</a></nav>
+  </div>
+</footer>
+
+</body>
+</html>
